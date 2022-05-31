@@ -1,0 +1,492 @@
+
+#body{
+	background-image:url(Images/orange_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+#header, #footer{
+	background-color: rgb(102, 51, 0);
+	border-width: 0px;
+	padding:10px;
+	padding-left: 350px;
+	margin-top: 0px;
+	height: 30px;
+	position: relative;
+	z-index: 7;
+}
+#footer{
+	color: white;
+}
+#title_img {
+	
+	border-radius: 50%;
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	z-index: 8;
+}
+
+#title{
+	background-color:rgb(255, 204, 0);
+	color: green;
+	
+	border-radius: 50%;
+	padding: 10px;
+	text-weight: bold;
+	font-size: 25px;
+	position: absolute;
+	top: 55px; 
+	left: 50px;
+	z-index: 9;
+	
+}
+
+#layout{
+	background: white;
+	margin: auto;
+	width:1000px;
+	position: relative;
+	margin-top: 100px;
+	padding-top:7px;
+}
+
+.nav1{
+	background-color: rgb(102, 51, 0);
+	color: orange;
+	font-weight: bold;
+    font-size: 20px;
+    font-family:"Times New Roman", Times, serif;
+    margin: 5px 35px 5px 35px;
+    padding: 0px;
+    text-align:center;
+    border: none;
+    text-decoration:none;
+    }
+#mainmenu a:hover {
+	color: white;
+	font-size: 21px;
+}
+#mainmenu a:target{
+	color: white;
+}
+.btn1{
+	background-color: rgb(102, 51, 0);
+	border:none;
+	color:white;
+	font-size: 15px;
+	font-style:oblique; 
+	font-weight:bold;
+	font-family:sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+
+#menu{
+	background-color: orange;
+	padding: 10px;
+	padding-left: 100px;
+	margin-top:10px;
+	
+}
+
+.btn2{
+     background-color: orange;
+     color: black;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     font-family:"Times New Roman", Times, serif;
+     padding: 0px 30px 0px 30px;
+     text-align:center;
+     border:none;
+     text-decoration: none;
+}
+#menu a{
+	background-color: orange;
+     color: black;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     font-family:"Times New Roman", Times, serif;
+     padding: 0px 30px 0px 30px;
+     text-align:center;
+     border:none;
+     text-decoration: none;
+}
+#menu a:hover{
+    color: rgb(51, 102, 0);
+    font-weight: bold;
+    font-style: itallic;
+    background-color: orange;
+}
+#menu a:active{
+	color:white;
+}
+
+#menu a:target{
+    background-color: transparent;
+	color: white;
+	margin-top:-210px;
+	padding-top:210px;
+}
+
+	
+#item1_more, #item2_more, #item3_more, #item4_more,#item5_more,
+#item6_more, #item1_main, #item2_main, #item3_main, #item4_main,
+#item5_main,#item6_main, #item7_main,#item1_dess,#item2_dess,#item3_dess,#item4_dess,
+#item1_drink, #item2_drink, #item3_drink, #item4_drink,
+#item1_chef,#item2_chef,#item3_chef,#item4_chef  {
+	display: none;
+}
+#item1_more, #item2_more, #item3_more, #item4_more,#item5_more,
+#item6_more, #item1_main, #item2_main, #item3_main, #item4_main,
+#item5_main,#item6_main, #item7_main,#item1_dess,#item2_dess,#item3_dess,#item4_dess,
+#item1_drink, #item2_drink, #item3_drink, #item4_drink,
+ #item1_chef,#item2_chef,#item3_chef,#item4_chef{
+ 
+	height: auto;
+    margin-top: -110px;
+    padding-top: 110px;
+}
+.item{
+	width: 600px;
+	padding: 5px;
+}
+
+#table_one, #table_two{
+    padding : 0px;
+    border: 1px solid black;
+}
+
+.item_image{
+	margin: 0px 40px 0px 0px;
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.btn_add{
+    border: none;
+    background-color: green;
+    color: white;
+    text-align:center;
+    padding: 7px;
+    font-size: 15px
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.btn_add:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+#abt_title{
+	text-align: left;
+	color: #FF7F00	;
+	font-weight: bold;
+	font-family: Book Antiqua;
+	font-size: 40px;
+	padding-left: 20px;
+}
+#about_nav{
+	text-align: left;
+	width: 200px;
+	float: left;
+}
+#abt_l1,#abt_l2{
+	
+	font-family: Times New Roman;
+	margin:20px;
+	padding-bottom: 7px;
+	padding-left: 12px;
+	border-bottom: 1px solid orange;
+	font-size: 18px;
+	color: green;
+	text-decoration: none;
+}
+.abt_text{
+	width:65%;
+	height: 100%;
+	padding-left: 225px;
+}
+#abt_text_bg,#abt_text_cp{
+	height: auto;
+    margin-top: -310px;
+    padding-top: 310px;
+}
+#abt_text_h1, #abt_text_h2{
+	text-align:left;
+	color: green;
+	font-family: Times New Roman;
+	font-size: 25px;
+	font-weight: bold;
+}
+#abt_text_p1,#abt_text_p2 {
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+#abt_text_cp{
+	display: none;
+}
+#linktotop{
+	text-align: center;
+}
+#backtotop{
+	color: green;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 20px;
+}	
+.index_images{
+	position: relative;
+	
+	margin: auto;
+	padding: 10px;
+    z-index: 1
+}
+.mySlides{
+	position: relative;
+	margin: 0;
+	width: 100%;
+	
+}
+.btn-floating1{
+	border-radius: 50%;
+	cursor: pointer;
+	position:absolute;
+	top: 50%;
+	left: 0%;
+	background-color: transparent;
+	color: black;
+	margin: 0px;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.btn-floating2{
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	background-color: transparent;
+	color: black;
+	margin: 0px;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#table_main, #table_desserts, #table_drinks, #table_chef {
+	height: 0;
+	display: none;
+	width: 650px;
+	
+}
+.table_display{
+display:none;
+}
+#table_sides{
+	display:block;
+    padding : 0px;
+    width:650px;
+    margin-left: 15px;    
+ }
+
+#table_main, #table_sides, #table_desserts, #table_drinks, #table_chef {
+	margin-left: 15px;
+	height: auto;
+    margin-top: -210px;
+	padding-top: 210px;
+	
+}
+
+.price{
+	padding-bottom: 60px;
+	margin: 0;
+	color: green;
+	font-weight: bold;
+    text-align: bottom;	    
+}
+#cart{
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+#display_cart{
+	
+	//position: fixed;
+	
+	text-align: justify;
+	border: 2px solid brown;
+	padding-top: 0px;
+	margin: 10px;
+	width: 290px;
+	
+}
+#show-cart{
+	list-style-type: none;
+	margin: none;
+	padding-left: 3px;
+	text-align:justify;
+}
+#ordercart{
+	color: green;
+	font-size: 25px;	
+	font-family: Times New Roman;
+	text-align: center;
+	background-color: orange;
+	margin:0;
+	
+	
+}
+.item-count{
+	border: 1px solid brown;
+	width: 20px;
+	margin: 0;
+	text-align: center;
+}
+.plus-item, .subtract-item{
+	color: brown;
+	background-color: orange;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	border-radius: 20%;
+}
+.delete-item{
+	color: green;
+	background: none;
+	border: 2px solid orange;
+	padding: 2px;
+	font-weight: bold;
+}
+#count-cart{
+	font-weight: bold;
+	font-size: 20px;
+	color: green;
+}
+#total-cart{
+	font-weight: bold;
+	font-size: 20px;
+	color: brown;
+}
+#total-cart1{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: right;
+	font-family: Times New Roman;
+	color: green;
+}
+#total{
+	color: brown;
+	font-weight: bold;
+	text-align: right;
+}
+#output-cart1{
+	padding: 2px;
+	width: 40%;
+	font-size: 16px;
+	//font-weight: bold;
+	font-family: Times New Roman;
+	
+}
+#output-cart2, #output-cart3,#output-cart4,#output-cart5,#output-cart6 {
+	padding-left: 3px;
+	width:12%;
+	
+}
+#map {
+    width: 950px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid ;
+    margin: 20px;
+}
+#address{
+   padding-left: 30px;
+}
+#contact_h1{
+   padding-left: 30px;
+   color: green;
+   text-decoration: underline;
+}
+#cat_title{
+	color: green;	
+	padding-left: 40px;
+}
+#cat_title1{
+	color: green;
+	font-family: san serif;
+	font-style: oblique;
+	
+}
+#cat_para{
+	
+	width: 400px;
+	padding-left: 40px;
+}
+#req_form{
+	width:350px; 
+	padding-left:30px; 
+	margin:30px; 
+	color:green; 
+	font-style:oblique; 
+	font-weight: bold;
+	float: left;
+}
+#req_form_title{
+	font-size: 20px;
+	font-weight: bold;
+	color: brown;
+}
+#catering_image{
+	padding-left: 80px;
+}
+#cat_form{
+	border: solid black;
+}
+#text_index{
+	color:green;
+	padding-left:30px;
+	margin-top: 0px;
+}
+#reg_title{
+	color:green;
+	text-align:center;
+}
+#reg_table{
+	align:center;
+	padding: 15px;
+	margin:30px;
+	
+	width: 500px;
+}
+.reg_element{
+	color: brown;
+	margin: 20px;
+}
+.submit{
+	border: none;
+    background-color: green;
+    color: white;
+    text-align:center;
+    padding: 7px;
+    font-size: 15px
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration: none;
+}

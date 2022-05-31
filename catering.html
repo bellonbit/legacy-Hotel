@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Seshu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+
+<body id="body">
+  <a href="index.jsp"><img id="title_img" src="Images/title_image1.jpg" width="200" height="200"></a>
+  <header id="header">
+
+    <a class="nav1" href="about.html">ABOUT</a>
+    <a class="nav1" href="menu.html">MENU</a>
+    <a class="nav1" href="catering.html">CATERING</a>
+    <a class="nav1" href="contact.html">CONTACT</a>
+
+    <button class="btn1" onclick="location.href = 'Reg.html';">Sign Up</button>
+    |
+    <button class="btn1" onclick="location.href = 'login.html'">Log In</button>
+
+  </header>
+  <h1 id="title">Legacy Hotel</h1>
+
+  <div id="layout">
+    <div style="float:left;">
+      <h1 id="cat_title">Legacy Hotel<span id="cat_title1">| Catering</span></h1>
+
+      <p id="cat_para">If you are planning an event,
+        please contact our catering team by Emailing Us.
+        We will respond promptly within one business day (usually sooner).</p>
+      <form action="action.jsp" method="post">
+        <fieldset id="req_form">
+          <legend id="req_form_title"> Catering Request Form</legend>
+          <table>
+            <tr>
+              <td>Name</td>
+              <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td><select>
+                  <option value="Catering Inquiry">Catering Inquiry</option>
+                  <option value="Delivery">Delivery</option>
+                  <option value="Full Service">Full Service</option>
+                  <option value="Other">Other</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td>Budget</td>
+              <td><input type="number" name="number" min="200">$</td>
+            </tr>
+            <tr>
+              <td style="vertical-align:top">Details</td>
+              <td><input type="text" name="name" style="width:350px;height:200px;"></td>
+            </tr>
+            <tr>
+              <td style="text-align:right;"><input class="submit" type="submit" value="Submit"></td>
+            </tr>
+          </table>
+
+        </fieldset><br><br>
+      </form>
+    </div>
+    <div>
+      <p style="text-align:center;color:green;font-size:25px;font-style:oblique">No party is good without good food</p>
+      <img id="catering_image" src="Images/catering.jpg" width="400" height="500"><br><br>
+    </div>
+  </div>
+
+
+  <div id="linktotop">
+    <a id="backtotop" href="#body">|Back to Top|</a>
+  </div><br><br>
+
+  <footer id="footer">@Copyright 2022 Legacy Hotel </footer>
+  <script>
+
+
+  </script>
+</body>
+
+</html>

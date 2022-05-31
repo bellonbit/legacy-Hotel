@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Legacy Hotel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+
+<body id = "body">
+<a href="index.jsp"><img id="title_img" src="Images/title_image1.jpg" width="200" height="200"></a>
+<header id ="header">
+  
+  <a class="nav1"  href="about.html">ABOUT</a>
+  <a class="nav1"  href="menu.html">MENU</a>
+  <a class="nav1"  href="catering.html">CATERING</a>
+  <a class="nav1"  href="contact.html">CONTACT</a>
+  
+<button class="btn1" onclick="location.href='Reg.html';">Sign Up</button>
+|
+<button class="btn1" onclick="location.href='login.html';">Log In</button>
+
+</header>
+<h1 id = "title">Legacy Hotel</h1>
+
+<div id="layout">
+<h1 id = "contact_h1">Contact Us</h1>
+
+<div id="address">Address:
+1677 NJ-27 #2,<br>
+Edison, New Jersey <br>
+08817 <br>
+Phone: 614-315-7865
+</div>
+<div id="map">
+
+</div><br>
+ <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 44.540, lng: -78.546},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+</div>
+
+<div id = "linktotop">
+<a id="backtotop" href="#body">|Back to Top|</a>
+</div><br><br>
+
+<footer id="footer">@Copyright 2022 Legacy Hotel </footer>
+<script>
+
+
+</script>
+</body>
+</html>
